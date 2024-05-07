@@ -1,0 +1,40 @@
+/* StudentResult.css */
+/* h1 {
+    color: #333;
+  } */
+  
+  table {
+    width: calc(100% - 20px); /* Adjust the width of the table */
+    border-collapse: collapse;
+   
+    margin-left: 10px; /* Adjust the left margin */
+  }
+  
+   td {
+    padding: 20px;
+    text-align: center;
+    width: 100px; /* Adjust the width of th and td */
+    color: #262626;
+  }
+  .shead{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+  th {
+    padding: 10px;
+    color: white;
+    background-color:rgba(13, 2, 55, 0.8);
+  }
+  
+  td a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  .e-cont{
+    margin-top: 100px;
+  }

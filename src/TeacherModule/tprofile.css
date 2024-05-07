@@ -1,0 +1,48 @@
+/* StudentHome.css */
+
+
+.f-det-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 220vh; Remove fixed height */
+    flex-direction: column;
+    margin-left: 50px ;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.f-det {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 80px;
+    /* margin-left: 250px;
+    margin-right: 150px;
+    */
+}
+
+.f-heading {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.f-heading h1{
+    color: black;
+}
+
+.f-details p{
+    margin-bottom: 25px;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .f-det {
+        width: 100%; /* Adjust as needed */
+    }
+}

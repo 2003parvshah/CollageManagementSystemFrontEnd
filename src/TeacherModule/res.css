@@ -1,0 +1,67 @@
+/* MarkUpload.css */
+.res-container{
+   margin-top: 90px;
+   margin-left: 250px;
+}
+.rhead{
+  color: black;
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .radiobtn{
+    color: black;
+  }
+  label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  select, input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  select {
+    width: 200px;
+  }
+  
+
+  
+  input[type="file"] + label {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="file"] + label:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Add more styles as needed */
+  

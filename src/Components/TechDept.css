@@ -1,0 +1,35 @@
+.dept {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    color: #fff;
+    margin-bottom: 90px;
+  }
+  
+  .dept-icons {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+  }
+  
+ 
+  .ce,
+  .ec,
+  .it,
+  .ch,
+  .mh {
+    text-align: center;
+   
+  }
+  
+  .ce h3,
+  .ec h3,
+  .it h3,
+  .ch h3,
+  .mh h3 {
+    color: #fff;
+    margin-top: 20px;
+  }
+  

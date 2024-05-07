@@ -1,0 +1,84 @@
+.label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .fhead {
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #fff;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    background-color: rgba(13, 2, 55, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem !important; /* Add extra padding here with !important */
+  }
+  .labl {
+    color: #fff;
+  }
+  
+  form label {
+    margin-bottom: 1rem; /* Add margin between label and input */
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    border-color: #fff; /* Change border color on focus */
+  }
+  
+  .success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+  }
+  
+  .success-popup p {
+    margin: 0;
+  }
+  
+  .success-popup.show {
+    display: block;
+    animation: fadeInOut 3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }

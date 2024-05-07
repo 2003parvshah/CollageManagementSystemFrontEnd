@@ -1,0 +1,60 @@
+.prog-card {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    padding: 3rem;
+    background: rgba(13, 2, 55, 0.8);
+    display: flex;
+    flex-direction: row; /* Change to row layout */
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden; /* Add overflow: hidden */
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .chead{
+      text-align: center;
+      margin-top: 100px;
+  }
+  .prog-img {
+      width: 30%; /* Adjust the width of the image */
+      max-height: 100%;
+      object-fit: cover;
+      margin-right: 1rem; 
+     
+  }
+  .prog-img:hover{
+      transform: scale(1.05);
+  }
+  .prog-title {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 100;
+  }
+  
+  .prog-details {
+    text-align: justify;
+    font-weight: 300;
+  }
+  
+  .prog-btn {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  @media screen and (max-width: 740px) {
+    .prog-card {
+      flex-direction: column; /* Change to column layout on smaller screens */
+      text-align: center;
+    }
+  
+    .prog-card img {
+      margin-right: 0; /* Remove right margin on smaller screens */
+      margin-bottom: 1rem; /* Add bottom margin for spacing */
+    }
+  }
+  

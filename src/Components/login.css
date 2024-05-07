@@ -1,0 +1,158 @@
+/* Add this to your existing CSS or create a new file */
+
+/* login.css */
+
+.background-container {
+  background: url("../assets/logbag.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.fhead{
+  color:#fff;
+}
+.log {
+  
+  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px; /* Increase max-width for a broader card */
+  margin: 4rem auto 2rem;
+  margin-top: 70px;
+  overflow-y: auto; /* Add this to enable scrolling within .log if needed */
+}
+
+.form-log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem; /* Adjust padding as needed */
+  max-width: 500px; /* Set max-width to limit the width of the form */
+  margin: auto; /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+ 
+  margin-bottom: 100px;
+  max-width: 600px;
+  background-color: rgba(13, 2, 55, 0.8);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 3rem !important; /* Add extra padding here with !important */
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 1rem;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.la {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+form input {
+  margin-bottom: 1rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.custom-popup input.invalid-otp {
+  border: 1px solid red;
+  /* You can customize the styles for the invalid OTP input */
+}
+
+form input:focus {
+  border-color: #717171;
+}
+
+.forgot-password {
+  color: #fff;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.forgot-password span {
+  color: #437cd2;
+  cursor: pointer;
+}
+
+.btn {
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  background-color: #1eb2a6;
+
+}
+/* login.css */
+
+/* login.css */
+
+.custom-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-align: center; /* Center text in the popup */
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.custom-popup label,
+.custom-popup input,
+.custom-popup button {
+  margin: 1rem 0;
+  color: black;
+}
+
+.custom-popup button {
+  margin-top: 1rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+ 
+  color: black;
+  border-radius: 5px;
+  display: block;
+  margin: auto; /* Center the button horizontally */
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 20px;
+ 
+}

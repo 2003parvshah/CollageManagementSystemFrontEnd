@@ -1,0 +1,70 @@
+
+.facility-container {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.faci-heading{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.faci-card {
+    flex: 0 0 calc(50% - 40px); /* Two cards per row with gap */
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 3rem;
+    background: rgba(13, 2, 55, 0.8);
+    border-color: black;
+    box-sizing: border-box;
+}
+
+.faci-img {
+    width: 50%; /* Adjust the width of the image */
+    max-height: 100%;
+    object-fit: cover;
+    margin-right: 1rem; /* Adjust margin for spacing */
+}
+
+.faci-title {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 200;
+}
+
+.faci-details p {
+    padding-bottom: 1rem;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 60px;
+
+}
+
+.bar {
+    border-bottom: 1px solid #000000;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+@media screen and (max-width: 740px) {
+    .faci-card {
+        flex: 0 0 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Adjust margin for spacing */
+    }
+
+    .faci-img {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+}

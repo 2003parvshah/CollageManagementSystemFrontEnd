@@ -1,0 +1,85 @@
+/* Container styling */
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styling */
+.det {
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+/* Image styling */
+
+.pimg {
+  width: 100%;
+  max-width: calc(100% - 500px); 
+  max-height: calc(100vh - 400px); /* Adjust the height as needed */
+  object-fit: cover;
+  margin: 20px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pimg:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+
+/* Paragraph styling */
+.pdesc {
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.5;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Statistics container styling */
+.no-of-comp,
+.offer,
+.high-pkg {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.no-of-comp:hover,
+.offer:hover,
+.high-pkg:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+/* Number styling */
+.comp,
+.off,
+.high {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* White text styling */
+.pl {
+  color: #fff;
+  margin-bottom: 2.4rem;
+}

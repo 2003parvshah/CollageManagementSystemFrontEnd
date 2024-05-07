@@ -1,0 +1,59 @@
+/* StudentHome.css */
+
+.std-det-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 220vh; Remove fixed height */
+    flex-direction: column;
+    margin-left: 50px ;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.std-det,
+.gur-det,
+.cont-det {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 80px;
+   
+}
+
+.std-heading,
+.gur-heading,
+.cont-heading {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.std-heading h1,
+.gur-heading h1,
+.cont-heading h1{
+    color: rgb(0, 0, 0);
+}
+
+.student-details p,
+.gur-det p,
+.cont-det p {
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.std-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .std-det,
+    .gur-det,
+    .cont-det {
+        width: 100%; /* Adjust as needed */
+    }
+}
